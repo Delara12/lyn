@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #004d40;
+            text-align: center;
+        }
+
+        header {
+            background-color: #004d40;
+            color: #fff;
+            padding: 20px;
+            background-image: url('/images/header-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 5px;
+            font-size: 0.8em;
+            padding: 3px 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #00796b;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+            padding-bottom: 100px;
+        }
+
+        .contact-form {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-form h2 {
+            color: #004d40;
+            font-size: 2em;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: left;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+            color: #004d40;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            border: 2px solid #004d40;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: #00796b;
+            box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #004d40;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #00796b;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+            font-size: 0.7em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Nature's Wonders</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/description">Description</a>
+            <a href="/place">Places</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nature's Wonders</p>
+    </footer>
+</body>
+</html>

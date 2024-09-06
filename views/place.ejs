@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places to Visit</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #004d40;
+            text-align: center;
+        }
+
+        header {
+            background-color: #004d40;
+            color: #fff;
+            padding: 20px;
+            background-image: url('/images/header-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+            padding: 5px 8px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #00796b;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .places {
+            background-color: #b2dfdb;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .places h2 {
+            color: #004d40;
+            font-size: 2em;
+        }
+
+        .places ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .places li {
+            background-color: #e0f2f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .places li:hover {
+            transform: scale(1.05);
+        }
+
+        .places li h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #004d40;
+        }
+
+        .places li p {
+            margin: 5px 0 0;
+            font-size: 1em;
+            line-height: 1.5;
+            color: #004d40;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Places to Visit</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/description">Description</a>
+            <a href="/place">Places</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="places">
+            <h2>Popular Destinations</h2>
+            <ul>
+                <li>
+                    <h3>Grand Canyon</h3>
+                    <p>Experience the awe-inspiring vistas of the Grand Canyon, one of the world's most iconic natural wonders. Its vast, layered landscape offers breathtaking views and incredible hiking opportunities.</p>
+                </li>
+                <li>
+                    <h3>Amazon Rainforest</h3>
+                    <p>Explore the vibrant Amazon Rainforest, the world's largest tropical rainforest, home to diverse wildlife, lush vegetation, and the majestic Amazon River.</p>
+                </li>
+                <li>
+                    <h3>Great Barrier Reef</h3>
+                    <p>Discover the underwater paradise of the Great Barrier Reef, the world's largest coral reef system, teeming with marine life, vibrant corals, and crystal-clear waters.</p>
+                </li>
+                <li>
+                    <h3>Yosemite National Park</h3>
+                    <p>Admire the towering cliffs, majestic waterfalls, and ancient sequoias of Yosemite National Park, a haven for outdoor enthusiasts and nature lovers alike.</p>
+                </li>
+                <li>
+                    <h3>Banff National Park</h3>
+                    <p>Immerse yourself in the pristine beauty of Banff National Park in Canada, featuring turquoise lakes, rugged mountains, and abundant wildlife.</p>
+                </li>
+                <li>
+                    <h3>Santorini</h3>
+                    <p>Visit the picturesque island of Santorini, known for its stunning sunsets, white-washed buildings, and the deep blue waters of the Aegean Sea.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nature's Wonders</p>
+    </footer>
+</body>
+</html>

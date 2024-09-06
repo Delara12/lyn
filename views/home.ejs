@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #004d40;
+            text-align: center;
+        }
+
+        header {
+            background-color: #004d40;
+            color: #fff;
+            padding: 20px;
+            background-image: url('/images/header-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 5px;
+            font-size: 0.8em;
+            padding: 3px 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #00796b;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .intro, .featured {
+            background-color: #b2dfdb;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .intro h2, .featured h3 {
+            color: #004d40;
+            font-size: 2em;
+        }
+
+        .intro p, .featured p {
+            color: #004d40;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .featured-item {
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .featured-item p {
+            color: #004d40;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+            font-size: 0.7em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nature's Wonders</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/description">Description</a>
+            <a href="/place">Places</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Discover the Beauty of Nature</h2>
+            <p>Explore the most breathtaking tourist attractions around the world.</p>
+        </section>
+        <section class="featured">
+            <h3>Featured Destinations</h3>
+            <div class="featured-item">
+                <p>1. Grand Canyon: A majestic natural wonder with breathtaking views.</p>
+            </div>
+            <div class="featured-item">
+                <p>2. Amazon Rainforest: Explore the lush, vibrant ecosystem of the Amazon.</p>
+            </div>
+            <div class="featured-item">
+                <p>3. Great Barrier Reef: Dive into the world’s largest coral reef system.</p>
+            </div>
+            <div class="featured-item">
+                <p>4. Mount Everest: The highest peak in the world, attracting adventurers and climbers.</p>
+            </div>
+            <div class="featured-item">
+                <p>5. Sahara Desert: Experience the vast and mesmerizing sands of the Sahara.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nature's Wonders</p>
+    </footer>
+</body>
+</html>

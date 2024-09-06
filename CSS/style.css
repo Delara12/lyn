@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #004d40;
+}
+
+/* Header Styles */
+header {
+    background-color: #00796b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('/images/header-bg.jpg'); /* Background image for header */
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.intro, .featured {
+    text-align: center;
+    background-color: #b2dfdb;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.intro h2, .featured h3 {
+    color: #004d40;
+}
+
+.featured-item {
+    margin: 20px 0;
+}
+
+.featured-item img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.featured-item p {
+    color: #004d40;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
